@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h1 {
+  color: #333;
+}
+
+.timer p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.controls button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#warmupBtn {
+  background-color: #FF9800;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#workoutBtn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#restBtn {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#resetBtn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
